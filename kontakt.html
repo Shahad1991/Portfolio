@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./shahad /kontakt.css">
+    <link rel="stylesheet" href="./shahad /styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <title>Kontakt</title>
+</head>
+
+
+<body>
+    <!-- her starter min header-->
+    <header>
+
+        <div class="mobil">
+            <a href="index.html"><img src="./images/logo.png" class="logo" alt="logo"></a>
+            <img src="./images/burger menu.png" class="mobil-icon" alt="Menu Icon">
+
+
+            <ul class="mobil-list">
+                <li><a href="index.html">Forsiden</a></li>
+                <li><a href="projekter.html">Projekter</a></li>
+                <li><a href="om.html">Om</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+
+        </div>
+
+
+
+        <div class="desktop">
+
+            <ul class="desktop-list">
+                <a href="index.html"><img src="./images/logo.png" class="D-logo" alt="logo"></a>
+                <li><a href="index.html">Forsiden</a></li>
+                <li><a href="projekter.html">Projekter</a></li>
+                <li><a href="om.html">Om</a></li>
+                <li id="contactBtn"><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+
+        </div>
+
+
+
+
+    </header>
+    <!--her sluter min header-->
+
+    <main class="body">
+
+        <!--her laver jeg en container for at lægge min kontakt info ind i-->
+
+        <div class="loader-container">
+            <div class="loader"></div>
+        </div>
+        <div class="container">
+
+            <h4>Kontakt</h4>
+
+
+            <div class="mobile">
+                <img src="./images/mobil.svg" alt="mobile-icon">
+                <a href="Tel: +4522316322">22 31 63 22</a>
+            </div>
+
+            <div class="email">
+                <img src="./images/mail.svg" alt="e-mail-icon">
+                <a href="mailto:shahad1nazar@gmail.com">shahad1nazar@gmail.com</a>
+            </div>
+
+
+            <div class="adress">
+                <img src="./images/lokation.svg" alt="adress-icon">
+                <p>Vibevej 7, 2630 Taastrup</p>
+
+            </div>
+
+            <div class="social-medie">
+
+                <a
+                    href="https://www.linkedin.com/feed/?legoTrackingToken=c34ZpnFFkTBxr71PqmgCc2UMfmlOrSdjtOoZsC5gr6litOoZp6Zdr6litOoVejAVejRApnhPpnlNpl9JtmUCjAZ9l4BjjR0Zuk9OpmhOjThBpShFtOpQrClQrCBvsClHpmlPnS9LqBYOtChxs6xzrDlxr3RAinhBpShFtOoMfmVLqnhFsSZgt6lDp6BT9z0Kc3RBsCZzkT9D9zROol1Ipl9OpOoZp6Zdr6lisCsCc3RKrSBQqndLk71RrT9D9zAVejAVfmhBt7dBtn5BkCRRjD1RrT9D9DhItm5CpmgZp4BMtmZOpOpejQBkildfk3RVgD9Bp79L9DhItm5CpmgZp4BQrClJpSlP9DhKpnhKqjRAinhLr7cCt6NRompBp3RAinhRrTBxr2oOtChxs6xzrDlxr3RBrm5epmtxs2pEt7tLsCsZp4BMs64Cc3AMe34Nfmh9rCZFsT9BtyoPejsRej4ScP0Nfmh9tioMoSgPdP0Rc30OdjoJomgVoyQScj4QbjlAdzcJpj8OdS4Qcm8Zp4BQu6lQrCZz">
+                    <img src="./images/linkdin.svg" alt="linkdin-icon"></a>
+            </div>
+        </div>
+    </main>
+    <script>
+        const menuIcon = document.querySelector(".mobil-icon");
+        const mobilList = document.querySelector(".mobil-list");
+
+        menuIcon.addEventListener("click", function () {
+            mobilList.classList.toggle("mobil-list");
+        });
+
+
+        window.addEventListener('load', () => {
+            const loaderContainer = document.querySelector('.loader-container');
+            loaderContainer.style.display = 'none';
+        });
+
+    </script>
+</body>
+
+</html>

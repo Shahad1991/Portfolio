@@ -1,0 +1,160 @@
+/*mobil*/
+
+body {
+    background-image: url("../images/backgrund.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+header {
+    background-color: black;
+    margin: 0;
+
+}
+
+.body {
+    text-align: center;
+}
+
+.container {
+    background-color: #D2C5B5;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 50px;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+
+
+.adress p {
+    font-size: 15px;
+}
+
+.mobile {
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.adress {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: 15px;
+
+
+}
+
+.email {
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+
+}
+
+
+
+
+.email a {
+    color: black;
+}
+
+.mobile a {
+    color: black;
+    margin-right: 90px;
+}
+
+
+
+
+
+.container img {
+    width: 20px;
+    margin-right: 10px;
+
+}
+
+.mobile img {
+    margin-right: 30px;
+}
+
+h4 {
+    margin-bottom: 40px;
+    color: #510014;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+
+.social-medie img {
+    margin-top: 20px;
+}
+
+
+
+
+@media screen and (min-width:990px) {
+    /*dekstop her*/
+
+    body {
+        height: 1000px;
+
+    }
+
+    .container {
+        width: 60%;
+        margin-left: 300px;
+        margin-top: 150px;
+        font-size: 20px;
+
+
+    }
+
+    h4 {
+        font-size: 40px;
+    }
+
+    .adress p {
+        font-size: 20px;
+    }
+
+    .container img {
+        width: 30px;
+
+
+    }
+
+
+    .container-header {
+        font-size: 70px;
+    }
+
+    .mobile {
+        margin-right: 50px;
+
+    }
+
+    .fa-linkedin {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}
